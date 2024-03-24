@@ -1,6 +1,6 @@
 {
-    "name": "My awesome PWA app",
-    "short_name": "PWA App",
+    "name": "Simmer",
+    "short_name": "Simmer",
     "icons": [
         {
         "src": "android/android-launchericon-512-512.png",
