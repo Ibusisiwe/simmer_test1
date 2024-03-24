@@ -14,6 +14,7 @@ const StyFooter = styled.footer`
 
     @media (max-width: 480px) {
         width: 103%;
+        left: -28px;
       }
 `;
 

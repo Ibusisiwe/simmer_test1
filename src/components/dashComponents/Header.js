@@ -42,6 +42,7 @@ const H1 = styled.h1`
         display: flex; /* Change display to flex */
         align-items: center; /* Center items vertically */
         margin-right: 0px;
+        font-size: 22px; /* Set the font size to 24px */
     }
 `;
 
@@ -105,7 +106,7 @@ const ChildrenWrapper = styled.div`
     }
 
     @media (max-width: 380px) {
-        margin-right: -30px;
+        margin-right: 0px;
         margin-left: -18px;
       }  
 `;

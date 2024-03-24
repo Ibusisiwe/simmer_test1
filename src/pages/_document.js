@@ -34,6 +34,14 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+          <style>
+            {`
+              body {
+                min-width: 100%;
+                overflow-x: hidden; /* Prevent horizontal scrolling */
+              }
+            `}
+          </style>
         </Head>
         <body>
           <Main />
